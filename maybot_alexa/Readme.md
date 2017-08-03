@@ -48,7 +48,7 @@ Maybot:     brexit means brexit, we will not be able to negotiate the best possi
 Useful websites
 ---------------
 
-https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/flask-ask-a-new-python-framework-for-rapid-alexa-skills-kit-development
-http://flask-ask.readthedocs.io/en/latest/getting_started.html
-https://ngrok.com/docs
+https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/flask-ask-a-new-python-framework-for-rapid-alexa-skills-kit-development  
+http://flask-ask.readthedocs.io/en/latest/getting_started.html  
+https://ngrok.com/docs  
 https://developer.amazon.com/edw/home.html
