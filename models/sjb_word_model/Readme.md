@@ -3,7 +3,7 @@ SJB Word Model
 
 This is a deep neural network model written using Keras in Python. The model predicts the next word in a sentence from the preceding 12 words which are maintained in a shift register and presented to the model in parallel. The model has 4 dense layers with interspersed droput and ELU layers. [word2vec](https://radimrehurek.com/gensim/models/word2vec.html) is used to code words as 300-element vectors which form the input to the network. The output of the model has a probabalistic selector so that it can be adjusted by "temperature" to be more or less inventive.
 
-The model is shown diagramatically in `Network_Model.vsd`:
+The model is shown diagramatically in `Network_Model.vsd`:  
 ![Network_Model](Network_Model.png)
 
 The model has been trained firstly on contributions from a large number of MPs, continuing until the validation loss stopped decreasing and then specifically on the contributions of Theresa May. Training on Theresa May was continued beyond the point of minimum validation loss so the model acts more like a memory, which is better for this demonstration.
@@ -34,6 +34,6 @@ The maybot code in a higher level directory can `import create_sentence.py` to c
 Useful Websites
 ---------------
 
-https://keras.io/
-https://radimrehurek.com/gensim/models/word2vec.html
+https://keras.io/  
+https://radimrehurek.com/gensim/models/word2vec.html  
 https://github.com/oxford-cs-deepnlp-2017/lectures
