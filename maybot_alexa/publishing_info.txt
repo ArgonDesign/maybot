@@ -1,0 +1,30 @@
+Short Skill Description:
+------------------------
+Complete sentences in the style of Theresa May's parliamentary spoken contributions.
+
+Full Skill Description:
+-----------------------
+This skill is a demonstration of the power of recurrent neural networks. You can say the start of a sentence and Political Theresa will complete it in the style of Theresa May. The network was trained using data from Hansard Online (https://hansard.parliament.uk/). It was trained firstly on general parliamentary contributions from a wide range of MPs. It was then specifically trained on Theresa May's contributions. In total 295,753 sentences were used in the training data set.
+
+Example Phrases:
+----------------
+Alexa, open Political Theresa.
+Alexa, ask Political Theresa that I am happy to say. (US)
+Alexa, ask Political Theresa about the right honourable gentleman. (UK)
+Alexa, ask Political Theresa to complete Brexit means.
+
+Keywords:
+---------
+RNN,deep learning,Hansard,Theresa May,robot,Brexit,Argon Design
+
+Small Icon:
+-----------
+maybot_icon_108.png
+
+Large Icon:
+-----------
+maybot_icon_512.png
+
+Privacy Policy URL:
+-------------------
+http://maybot.argondesign.com/privacy

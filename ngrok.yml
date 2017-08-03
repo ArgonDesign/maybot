@@ -1,0 +1,14 @@
+region: eu
+tunnels:
+  maybot_web:
+    proto: http
+    addr: 5000
+    hostname: maybot.argondesign.com
+  maybot_alexa:
+    proto: http
+    addr: 5001
+    subdomain: maybot-alexa
+  maybot_google:
+    proto: http
+    addr: 5002
+    subdomain: maybot-google

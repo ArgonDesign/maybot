@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "CompleteSentenceIntent",
+      "slots": [
+        {
+          "name": "InitialWords",
+          "type": "INITIAL_WORDS_TYPE"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

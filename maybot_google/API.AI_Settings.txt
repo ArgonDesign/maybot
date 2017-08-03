@@ -1,0 +1,54 @@
+API.AI Console
+--------------
+https://console.api.ai/api-client/
+
+Argon Maybot
+
+DESCRIPTION
+An action to complete a sentence in the style of Theresa May's parliamentary spoken contributions.
+
+LANGUAGE
+English
+
+DEFAULT TIME ZONE
+(GMT0:00) Africa/Casablanca
+
+~~~
+Intents
+
+Welcome Intent:
+Events
+WELCOME
+Text response
+Hi! I'm a neural network that completes a sentence in the style of Theresa May. What are the first few words of the sentence you'd like me to complete?
+Hello! I'm a neural network that completes a sentence in the style of Theresa May, the Prime Minister. Please say the first few words of a sentence.
+Hi! I complete sentences in the style of Theresa May's contributions in Parliament. Please say the first few words of a sentence.
+
+CompleteSentenceIntent:
+User says
+@ @sys.any:InitialWords
+Action
+CompleteSentence
+Parameters
+InitialWords @sys.any $InitialWords
+Text response
+It seems Political Theresa is unavailable right now.
+Fulfillment
+Use webhook
+Actions on Google
+End conversation
+
+Default Fallback Intent:
+Text response
+What was that? Please give me the first few words of a sentence to finish.
+
+~~~
+Integrations
+
+Actions on Google
+
+~~~
+Fulfillment
+
+URL
+https://maybot-google.eu.ngrok.io

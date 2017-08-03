@@ -1,0 +1,47 @@
+Actions on Google
+-----------------
+https://console.actions.google.com/
+
+Project name: Political Theresa
+
+App information
+---------------
+Assistant app name: Political Theresa
+Pronumciation: political Theresa
+
+Assistant app introduction: You can use this app to: hear Theresa May complete a sentence
+Assistant app voice: Female 1
+Match user's language setting: Ticked
+
+Short description
+-----------------
+Complete a sentence in the style of Theresa May's parliamentary spoken contributions
+
+Full description
+----------------
+Political Theresa, also known as Maybot is a demonstration of the power of recurrent neural networks. You can say the start of a sentence and Maybot will complete it in the style of Theresa May. The network was trained using data from Hansard Online (https://hansard.parliament.uk/). It was trained firstly on general parliamentary contributions from a wide range of MPs. It was then specifically trained on Theresa May's contributions. In total 295,753 sentences were used in the training data set.
+
+Sample invocations
+------------------
+Ok Google, Talk to Political Theresa
+
+Category
+--------
+Games & fun
+
+Images
+------
+Large banner image: maybot_banner_1920x1080.png
+Small square logo: maybot_icon_192.png
+
+Developer name
+--------------
+Argon Design Ltd
+
+Email
+-----
+steve.barlow@argondesign.com
+
+Link to Privacy Policy
+----------------------
+http://maybot.argondesign.com/privacy

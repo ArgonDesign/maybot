@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+********************************************************************************
+Argon Design Ltd. Project P9000 Argon
+(c) Copyright 2017 Argon Design Ltd. All rights reserved.
+
+Module : maybot
+Author : Steve Barlow
+$Id: index.html 18332 2017-06-18 16:18:38Z sjb $
+
+DESCRIPTION:
+Web page HTML
+********************************************************************************
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Maybot</title>
+    <meta name="author" content="Argon Design Ltd">
+    <meta name="keywords" content="recurrent neural network, text generation, theresa may, hansard">
+    <meta name="description" content="Web app that completes sentences in the style of Theresa May.">
+
+    <link rel="stylesheet" type="text/css" href="static/style.css"/>
+    <script src="static/speak.js"></script>
+
+    <script>
+        var _gaq=[['_setAccount','UA-34584161-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))
+    </script>
+</head>
+<body>
+    <div class="header">
+    </div>
+
+    <div class="maincontent">
+        <h1>Maybot</h1>
+        <p>Maybot is a recurrent neural network that completes sentences in the style of
+            Theresa May's parliamentary spoken contributions scraped from Hansard.
+        </p>
+        <p><img src="static/may_311.png" alt="Theresa May"/>
+        </p>
+        <form action="/" method="Post">
+            <input type="text" name="initialWords" size="60" placeholder="Initial words...">
+            <input type="submit" value="Complete">
+        </form>
+        {% if result != "" %}
+        <div class="result">
+            <p>Completed sentence:</p>
+            <p class="standout" id="resultText">"{{result}}"</p>
+<!--
+            // Speaking disabled. Works OK on Chrome desktop but doesn't work well
+            // on Android.
+
+            <script>
+                speak(document.getElementById('resultText').innerHTML);
+            </script>
+-->
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="footer">
+        <hr>
+        <table>
+            <tr>
+                <td class="footer_left">
+                    <a href="http://www.argondesign.com" target="_blank">
+                            <img src="static/argon_logo_footer.jpg" alt="Argon Design"/>
+                    </a>
+                </td>
+                <td class="footer_right">
+                    <p>&copy 2017 Argon Design Ltd. All rights reserved. <a href='privacy'>Privacy & Legal</a></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

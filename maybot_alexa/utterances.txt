@@ -1,0 +1,2 @@
+CompleteSentenceIntent {InitialWords}
+CompleteSentenceIntent complete {InitialWords}

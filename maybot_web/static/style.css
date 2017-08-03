@@ -1,0 +1,55 @@
+/*****************************************************************************
+Argon Design Ltd. Project P9000 Argon
+(c) Copyright 2017 Argon Design Ltd. All rights reserved.
+
+Module : maybot
+Author : Steve Barlow
+$Id: style.css 18332 2017-06-18 16:18:38Z sjb $
+
+DESCRIPTION:
+Web page CSS
+*******************************************************************************/
+
+/* General CSS */
+
+body {
+    width:90%;
+    font-family:Tahoma, Arial, Helvetica, sans-serif;
+    font-size:11pt;
+    margin:0 auto;
+    background-color:white;
+}
+
+/* Main Content */
+
+div.result {
+    padding-top:20px;
+}
+p.standout {
+    font-size:14pt;
+    color:#006699;
+    font-style:italic;
+    font-weight:bold;    
+}
+
+/* Footer */
+
+div.footer {
+    padding-top:30px;
+    color:gray;
+    font-size:9pt;
+}
+div.footer table {
+    width:100%;
+    border-collapse:collapse;
+}    
+div.footer td {
+    vertical-align:top;
+    padding:0px;
+}
+div.footer p {
+    margin:0px;
+}
+td.footer_right {
+    text-align:right;
+}
